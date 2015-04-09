@@ -37,7 +37,7 @@ The plugin is based on the [ACE Editor for WP](https://wordpress.org/plugins/ace
 
 = Usage =
   
-1. To open the **HTML tab** first make sure you are on the **Visual tab** because the script loads the data from the *TinyMCE* editor which is loaded only when the **Visual tab** activates. 
+1. Before switching to the **HTML tab** first make sure you are on the **Visual tab** because the script loads the data from the *TinyMCE* editor which is loaded only when the **Visual tab** activates. 
 2. When you are on the **Text tab** the *HTML tab* is disabled and has a *light red background* so you won't be able to switch to it until you activate the **Visual tab**. 
 3. When the **HTML tab** is activated the *Text tab* becomes disabled so you may only switch to the **Visual tab**. This is done to prevent the *conflicts* of content which is loaded when appropriate tab is activated.
 4. If you edit some content in the **HTML mode** and want to *save* it and *update the post* first switch to the **Visual tab** so the edited HTML code loads to the **TinyMCE editor**. It's *required* because the content synchronization is performed only after *switching off the HTML tab*.
@@ -72,7 +72,7 @@ If you need to change this F11 key to other write me a request and I'll add an o
   
 1. **Font size** of the editor may be set in any CSS units *(px, pt, em)*.
 2. **Editor themes** dropdown shows default **Ace Editor** theme list plus my custom theme **Sublime** which is the default theme for the plugin.
-3. The options form is submitted using **Ajax** so the **page doesn't reload**, just wait until the save button is *enabled* and the *success message* appears at the top. Then reload the edit post page to see the editor changes.
+3. **The options form** is submitted using **Ajax** so the **page doesn't reload**, just wait until the save button is *enabled* and the *success message* appears at the top. Then reload the edit post page to see the editor changes.
 
 
 = Other Notes =
