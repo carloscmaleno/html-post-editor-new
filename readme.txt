@@ -81,6 +81,7 @@ If you need to change this F11 key to other write me a request and I'll add an o
 2. When the **HTML tab** is loaded the *source code* is first represented as one long line. So I used the [JS Beautifier](https://github.com/beautify-web/js-beautify/tree/master/js) tool and exactly its **beautify-html.js** subscript to format that line so it has some readable structure. Additionally I applied my own function to have some blank lines before `<hx>`, `<p>` and `<pre>` tags.
 3. I've put only the *minified version* of the **Ace Editor** scripts to the plugin package. To get the full **uncompressed** files go to its [GitHub repository](https://github.com/ajaxorg/ace-builds).
 
+
 = Resource Links =
 
 1. [Ace Editor Main Site](http://ace.c9.io) and [GitHub repository](https://github.com/ajaxorg/ace).
@@ -91,7 +92,13 @@ If you need to change this F11 key to other write me a request and I'll add an o
 6. [Special Emmet package](https://github.com/mortalis13/emmet-for-ace-css) for the Ace Editor.
 7. [JS Beautifier](https://github.com/beautify-web/js-beautify/tree/master/js).
 
-This plugin GitHub repository: https://github.com/mortalis13/html-post-editor.
+This plugin's GitHub repository: https://github.com/mortalis13/html-post-editor.
+
+
+= Detected Problems =
+
+- When switching to the full-screen mode (F11) and the "Enable full-height editor and distraction-free functionality" Screen option is enabled the post tabbar stays on the front.
+- If cursor doesn't match its established position (e.g., should be in the line end after the last character but displays with offset to the left) try installing Consolas fonts to the Fonts folder (this problem detected in Windows XP where no Consolas fonts installed by default). Install all 4 types of Consolas (Regular, Bold, Italic, Bold Italic). I've taken them from Windows 7 Fonts folder.
 
 
 == Installation ==
