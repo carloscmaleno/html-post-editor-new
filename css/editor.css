@@ -1,3 +1,5 @@
+/* Ocultamos el editor Texto porque ya no tiene sentido */
+.wp-switch-editor.switch-html{display: none}
 
 #ace-editor{
   position: absolute;
